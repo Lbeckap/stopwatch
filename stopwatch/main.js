@@ -68,5 +68,4 @@ function displayTime() {
     + '.' + milliseconds.toString().padStart(3, '0');
 
     document.getElementById("time").textContent = timeString;
-    //console.log(now, hours, minutes, seconds, milliseconds);
 }
