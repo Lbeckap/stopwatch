@@ -1,0 +1,40 @@
+body {
+    /* background-image: url(chalkboard.jpg); */
+    background-color: rgb(8, 8, 42);
+    color: rgba(150, 175, 255, 0.596);
+}
+
+.stopwatch-buttons {
+    text-align: center;
+    font-weight: bold;
+    font-size: x-large;
+    padding: 5%;
+}
+
+.stopwatch-buttons a {
+    padding: 3%;
+    text-decoration: none;
+    color: white;
+    
+}
+
+.stopwatch-buttons a:hover {
+    color: yellow;
+}
+
+
+
+.stopwatch time {
+    color: white;
+    display: block;
+    text-align: center;
+    font-size: 4rem;
+}
+
+@media (max-width: 767px) {
+    
+}
+
+@media (min-width: 768px) {
+    
+}
