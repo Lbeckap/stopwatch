@@ -1,7 +1,20 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
-    /* background-image: url(chalkboard.jpg); */
-    background-color: rgb(8, 8, 42);
-    color: rgba(150, 175, 255, 0.596);
+    
+    background-image: linear-gradient(rgb(16, 16, 16), rgb(32, 31, 36), rgb(16, 16, 16));
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family:'Courier New', Courier, monospace
+}
+
+
+h1 {
+    font-weight: 100;
+    color: rgb(10, 176, 247);
 }
 
 .stopwatch-buttons {
@@ -19,7 +32,7 @@ body {
 }
 
 .stopwatch-buttons a:hover {
-    color: yellow;
+    color: rgb(0, 255, 17);
 }
 
 
