@@ -8,9 +8,17 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    font-family:'Courier New', Courier, monospace
+    font-family:'Courier New', Courier, monospace;
 }
 
+.mainContent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    flex-direction: column;
+    row-gap: 40px;
+}
 
 h1 {
     font-weight: 100;
@@ -18,29 +26,24 @@ h1 {
 }
 
 .stopwatch-buttons {
-    text-align: center;
     font-weight: bold;
     font-size: x-large;
-    padding: 5%;
+    display: flex;
+    column-gap: 40px;  
 }
 
 .stopwatch-buttons a {
-    padding: 3%;
     text-decoration: none;
-    color: white;
-    
+    color: white;  
 }
 
 .stopwatch-buttons a:hover {
     color: rgb(0, 255, 17);
 }
 
-
-
 .stopwatch time {
     color: white;
     display: block;
-    text-align: center;
     font-size: 4rem;
 }
 
