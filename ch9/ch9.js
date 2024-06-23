@@ -141,3 +141,36 @@ if (i < numbers.length) {
 //while loops - when to use? for indefinite iteration
     //When validating user input
     //When can not determine in advance how many times the loop will iterate
+
+
+/*Exercise #1: Construct for loops that accomplish the following tasks:
+    a. Print the numbers 0 - 20, one number per line.
+    b. Print only the ODD values from 3 - 29, one number per line.
+    c. Print the EVEN numbers 12 to -14 in descending order, one number per line.
+    d. Challenge - Print the numbers 50 - 20 in descending order, but only if the numbers are multiples of 3. (Your code should work even if you replace 50 or 20 with other numbers). */
+
+    for (let i = 0; i < 21; i++) {
+        console.log(i);
+      }
+      
+      //i starts at 3, i += 2 counts upward adding 2, therefore i would be 3, 5, 7, etc..
+      for (let i = 3; i < 30; i+=2) {
+        console.log(i);
+      }
+      
+      //i starts at 12, i -= 2 counts downward subracting 2, therefore i would be 12, 10, 8, etc..
+      for (let i = 12; i > -15; i-=2) {
+          console.log(i);
+      }
+      
+      for (let i = 50; i > 19; i--) {
+        if (i % 3 === 0) {
+          console.log(i);
+        }
+      }
+      //OR Another possible way is below...
+      //How to stop from printing the first iteration of 50? Maybe not possible in this syntax because the initial expression executes once before any loop interations.
+      for (let i = 50; i > 19; i -= 2 + (i % 3 === 0)) {
+          console.log('.',i);
+      }
+      
