@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <h1>Stopwatch</h1>
+    <div class="mainContent">
+    <div class="stopwatch">
+        <time>
+            <span id="time">00:00:00.000</span>
+        </time>
+    </div>
+    <div class="stopwatch-buttons">
+        <a href="#" onclick="event.preventDefault(); start();">Start</a>
+        <a href="#" onclick="event.preventDefault(); stop();">Stop</a>
+        <a href="#" onclick="event.preventDefault(); reset();">Reset</a>
+    </div>
+</div>
+    <script src="main.js"></script>
+</body>
+</html>

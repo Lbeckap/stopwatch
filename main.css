@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    
+    background-image: linear-gradient(rgb(16, 16, 16), rgb(32, 31, 36), rgb(16, 16, 16));
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.mainContent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    flex-direction: column;
+    row-gap: 40px;
+}
+
+h1 {
+    font-weight: 100;
+    color: rgb(10, 176, 247);
+}
+
+.stopwatch-buttons {
+    font-weight: bold;
+    font-size: x-large;
+    display: flex;
+    column-gap: 40px;  
+}
+
+.stopwatch-buttons a {
+    text-decoration: none;
+    color: white;  
+}
+
+.stopwatch-buttons a:hover {
+    color: rgb(0, 255, 17);
+}
+
+.stopwatch time {
+    color: white;
+    display: block;
+    font-size: 4rem;
+}
+
+@media (max-width: 767px) {
+    
+}
+
+@media (min-width: 768px) {
+    
+}
